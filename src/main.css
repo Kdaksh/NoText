@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+.cell {
+  height: 8rem;
+  width: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid white;
+  cursor: pointer;
+  background-color: lightblue;
+  border-radius: 40px;
+  transition: 0.5s all;
+  position: relative;
+}
+
+.row {
+  display: flex;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ico {
+  font-size: 5rem;
+  color: white;
+}
+.cross {
+  background-color: #dc685a;
+}
+
+.circle,
+.circle:hover {
+  background-color: #ecaf4f;
+}
+.cell-empty:hover,
+.top_pannel {
+  background-color: #3d4250;
+}
+.cross-hover::before {
+  content: "\f00d";
+}
+.circle-hover::before {
+  content: "\f111";
+}
+
+.hover::before {
+    transition: 5s all;
+  
+ 
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #3d4250;
+  border-radius: 30px;
+
+  font-size: 5rem;
+}
+
+.cross-hover::before {
+  font-family:  "Font Awesome 6 Free";
+  font-weight: 900;
+ 
+  
+ 
+  
+}
+.circle-hover {
+    font-family:  "Font Awesome 6 Free";
+    
+    
+    
+}
+.reset{
+  height: 3rem;
+  width: 3rem;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  background-color: #3d4250;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: .2s all;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.reset:hover{
+  background-color: #bb4b3f;
+  
+}
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar{
+  position: fixed;
+  width: 100%;
+  background-color: #3d4250;
+  color: white;
+  top: 0;
+  left: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  padding-left: 20px;
+}
+.green,.green:hover,.green-win{
+  background-color: #00d50c;
+}
+.green-win{
+  text-align: center;
+}
+.dull{
+  background-color: #3d4250;
+}
+.stats{
+  text-align: center;
+}
+@media (max-width:992px) {
+  .cell{
+    height: 6rem;
+    width: 6rem;
+   
+  }
+  
+  .ico,.cell::before{
+    font-size:3rem;
+  }
+  .navbar{
+    font-size: 2rem;
+  }
+}
+@media (max-width:552px) {
+  .cell{
+    height: 5rem;
+    width: 5rem;
+   
+  }
+  .ico,.cell::before{
+    font-size: 3rem;
+  }
+  .navbar{
+    font-size: 1.8rem;
+  }
+}
