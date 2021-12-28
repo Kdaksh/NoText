@@ -3,7 +3,7 @@ It's A Simple Tic Tac Toe Game
 
 ## Demo
 
-Click  [Here](tickytactoe-c6cc9.web.app/) to view demo.
+Click  [Here](https://tickytactoe-c6cc9.web.app/) to view demo.
 
 
 ## About The Code
