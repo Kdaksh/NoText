@@ -107,7 +107,7 @@ won = true
                 disCell()
             
         }
-        setTimeout(()=>{reset()},15000)
+      
     }
     
     const looseAnimation = (u, e) => {
@@ -129,7 +129,7 @@ won = true
        
         document.getElementById('winner').style.display = 'block'
         updateStatusBar(true,((u==="cross")? "X" :"O"))
-        setTimeout(()=>{reset()},15000)
+       
         for (let index = 0; index < array.length; index++) {
             const element = array[index];
             if (winCases[e].includes(Number(element.attributes[1].value))) {
@@ -176,7 +176,7 @@ const unDisCell = ()=>{
     };
 const reset = ()=>{
     // Reseting Hooks
-    clearTimeout()
+    
     setChance(1)
     setGridValVH([
         [1, 2, 3],

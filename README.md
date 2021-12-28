@@ -3,7 +3,7 @@ It's A Simple Tic Tac Toe Game
 
 ## Demo
 
-Click  [Here](https://kdaksh-tictactoe.web.app) to view demo.
+Click  [Here](tickytactoe-c6cc9.web.app/) to view demo.
 
 
 ## About The Code
@@ -13,4 +13,4 @@ The Frontend Was Made Using ReactJs
 #### Modules Used
 1. react-confetti
 ## Hosting
-It Is On Firebase. That Is [Here](https://kdaksh-tictactoe.web.app)
+It Is On Firebase. That Is [Here](https://tickytactoe-c6cc9.web.app/)
